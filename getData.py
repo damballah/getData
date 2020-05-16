@@ -44,6 +44,7 @@ laData=data2['result']['input']
 cmdConstruct="python -m ethereum_input_decoder -t " + laData
 
 os.system(cmdConstruct)
+print("")
 
 
 
