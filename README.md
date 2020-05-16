@@ -22,8 +22,6 @@ ou sur Windows...
 
     python getData.py ropsten 0x4f2edfb2e0a2bfffb545b4599999ed37ef47ae6776b57b0518a7fc49aa4701e5 23ARRW4HGDEEFD6HJK88KH11DDDD5845FP
 
-(n° de transaction et api_key complètes bien sur)
-
 ##### Liste des réseaux à mettre en paramètre n°1:
 ropsten <br>
 kovan <br>
