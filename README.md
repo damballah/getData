@@ -17,10 +17,10 @@ Sous linux Ubuntu et python3:
 
 Exemple: 
 
-    python3 getData.py ropsten 0x3c2edfb2e0a... 23ARRW4K8I7G...
+    python3 getData.py ropsten 0x4f2edfb2e0a2bfffb545b4599999ed37ef47ae6776b57b0518a7fc49aa4701e5 23ARRW4HGDEEFD6HJK88KH11DDDD5845FP
 ou sur Windows...  
 
-    python getData.py ropsten 0x3c2edfb2e0a... 23ARRW4K8I7G...
+    python getData.py ropsten 0x4f2edfb2e0a2bfffb545b4599999ed37ef47ae6776b57b0518a7fc49aa4701e5 23ARRW4HGDEEFD6HJK88KH11DDDD5845FP
 
 (n° de transaction et api_key complètes bien sur)
 
