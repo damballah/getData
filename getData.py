@@ -2,6 +2,9 @@
 import json
 import sys
 import os
+import platform
+
+plt=platform.system()
 
 #arguments = len(sys.argv) - 1
 
@@ -41,9 +44,14 @@ data1 = resp.read().decode()
 data2 = json.loads(data1)
 laData=data2['result']['input']
 
-cmdConstruct="python -m ethereum_input_decoder -t " + laData
+if plt=="Windows":
+	cmdConstruct="python -m ethereum_input_decoder -t " + laData
+	os.system(cmdConstruct)
+elif plt=="Linux":
+	cmdConstruct="python3 -m ethereum_input_decoder -t " + laData
+	os.system(cmdConstruct)
+else:
 
-os.system(cmdConstruct)
 print("")
 
 
