@@ -47,12 +47,13 @@ laData=data2['result']['input']
 if plt=="Windows":
 	cmdConstruct="python -m ethereum_input_decoder -t " + laData
 	os.system(cmdConstruct)
+	print("")
 elif plt=="Linux":
 	cmdConstruct="python3 -m ethereum_input_decoder -t " + laData
 	os.system(cmdConstruct)
+	print("")
 else:
-
-print("")
+	print("")
 
 
 
