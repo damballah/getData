@@ -6,7 +6,7 @@
 > **Prérequis :**
   [Python3](https://www.python.org/) ; [pip](https://pypi.org/project/pip/) ; [ethereum-input-decoder](https://github.com/tintinweb/ethereum-input-decoder) ; [une clé API sur Etherscan.io](https://etherscan.io/apis) <br>
 
-Sous linux Ubuntu et python3:
+Sous Ubuntu :
 
 1°) `apt-get update` <br>
 2°) `apt-get install python3-pip` <br>
